@@ -1,0 +1,48 @@
+{
+  "name": "readable-blob-stream",
+  "version": "0.0.0",
+  "description": "Read W3C Blob & File objects as a Node stream. Very useful with \"browserify\" and \"primus\" with \"ejson\" using pipe()",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify --outfile build/readable-blob-stream.js --standalone ReadableBlobStream ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joris-van-der-Wel/readable-blob-stream.git"
+  },
+  "keywords": [
+    "arraybuffer",
+    "blob",
+    "browser",
+    "browserify",
+    "buffer",
+    "commonjs",
+    "datatransfer",
+    "dataview",
+    "ejson",
+    "file",
+    "filelist",
+    "filereader",
+    "html5",
+    "pipe",
+    "readable",
+    "require",
+    "stream",
+    "uint8array",
+    "w3c",
+    "whatwg"
+  ],
+  "author": "Joris van der Wel <joris@jorisvanderwel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joris-van-der-Wel/readable-blob-stream/issues"
+  },
+  "homepage": "https://github.com/Joris-van-der-Wel/readable-blob-stream",
+  "dependencies": {
+    "buffer": "^2.8.1",
+    "inherits": "^2.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^6.3.2"
+  }
+}
