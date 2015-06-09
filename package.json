@@ -39,7 +39,6 @@
   },
   "homepage": "https://github.com/Joris-van-der-Wel/readable-blob-stream",
   "dependencies": {
-    "buffer": "^2.8.1",
     "inherits": "^2.0.1"
   },
   "devDependencies": {

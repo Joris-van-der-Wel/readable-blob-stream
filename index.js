@@ -1,9 +1,7 @@
 'use strict';
 
 var Readable = require('stream').Readable;
-// This Buffer is also an Uint8Array, which is important for ejson.
-// This is the same shim that Browserify uses, however I would rather be more explicit about it
-var Buffer = require('buffer/').Buffer; // trailing slash is important.
+// When required from browserify, Buffer is also an Uint8Array, which is important for ejson.
 var inherits = require('inherits');
 var FileReader = global.FileReader;
 var Uint8Array = global.Uint8Array;
