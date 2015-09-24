@@ -13,6 +13,10 @@ var Uint8Array = global.Uint8Array;
  */
 function ReadableBlobStream(blob, opts)
 {
+        if (!(this instanceof ReadableBlobStream)) {
+          return new ReadableBlobStream(blob, opts);
+        }
+
         opts = opts || {};
         opts.objectMode = false;
         Readable.call(this, opts);
