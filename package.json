@@ -1,6 +1,6 @@
 {
   "name": "readable-blob-stream",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Read W3C Blob & File objects as a Node stream. Very useful with \"browserify\" and \"primus\" with \"ejson\" using pipe()",
   "main": "index.js",
   "scripts": {
